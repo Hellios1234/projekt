@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
+html {
+  font-size: 10px;
+  font-family: 'Oswald', sans-serif;
+  background-color: ghostwhite;
+}
+
+
+body {
+  background-image: url(obrazy/glowna3.jpg);
+  position: relative;
+  background-attachment: fixed;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  font-family: Roboto Mono;
+}
+
+
+/*formularz*/
+form,
+input,
+select,
+textarea {
+  color: ghostwhite;
+  font-family: Roboto Mono;
+}
+form div h1{
+  font-size: 4vh;
+}
+
+div.box {
+  width: 30%;
+  position: absolute;
+  background-position: center;
+  bottom:15%;
+  left: 49%;
+  padding: 1%;
+  font-size: 80%;
+}
+
+div.box label {
+  width: 100%;
+  display: block;
+  background: #1C1C1C;
+  border-bottom: 1px solid #161712;
+  padding: 2%;
+   font-size: 120%;
+}
+
+div.box label span {
+  display: block;
+  color: #bbbbbb;
+  font-size: 120%;
+  float: left;
+  width: 6vw;
+  text-align: right;
+}
+
+div.box .wpis {
+  padding: 1%;
+  background: #262626;
+}
+
+div.box .wiadomosc {
+   font-size: 120%;
+  width: 16vw;
+  background: #262626;
+  height: 18vh;
+}
+
+div.box .button {
+  cursor: pointer;
+  padding: 1%;
+  background: #CC0000;
+  position: absolute;
+  bottom: 10%;
+  right: 5%;
+  width: 15%;
+  color: black;
+  background-color: ghostwhite;
+  font-size: 120%;
+}
+
+
+div.box .button:active{
+  background-color: red;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  
+}
+/*telefon*/
+telefon {
+  position: absolute;
+  width: 25%;
+  top: 30%;
+  left: 5%;
+  font-size: 3vh;
+  color: black;
+  text-align: left;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+iframe {
+  position: absolute;
+  width: 40%;
+  height: 40%;
+  top: 45%;
+  left: 5%;
+
+}
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 100px;
+  width: 100%;
+  height: 100%;
+
+}
+
+.container:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+
+}
+
+
+/*menu*/
+nav {
+  position: fixed;
+  max-width: 100%;
+  text-align: right;
+  width: 100%;
+
+}
+
+/*przciski menu*/
+nav a {
+  margin: 20px;
+  display: inline-block;
+  font-size: 3vh;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+}
+
+/*nakladka po najechaniu na przyciski menu*/
+nav a:hover {
+  border-bottom: 2px solid #555;
+  color: black;
+  text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c, -15px -12px 5px rgba(176, 176, 176, 0.3);
+}
+
+/*rysa*/
+nazwa {
+  position: fixed;
+  width: 25%;
+  top: 0%;
+  left: 1%;
+  font-size: 7vh;
+  color: black;
+  text-align: left;
+  font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+/*pracownia*/
+nazwa1 {
+
+  position: fixed;
+  width: 25%;
+  top: 1%;
+  left: 8%;
+  font-size: 3vh;
+  color: black;
+  text-align: left;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+/*archi*/
+nazwa2 {
+  position: fixed;
+  width: 25%;
+  top: 3.9%;
+  left: 8%;
+  font-size: 3vh;
+  color: black;
+  text-align: left;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+/*stopka*/
+footer {
+  background-color: #000;
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+}
+
+footer p {
+  font-family: Oswald;
+  color: white;
+  text-align: center;
+  font-size: 2vh;
+  height: 4vh;

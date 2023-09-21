@@ -1,0 +1,114 @@
+/*
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Oswald', sans-serif;
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::after {
+    content: "";
+    display:block;
+    clear: both;
+}
+
+
+html {
+    font-size: 10px;
+    font-family: 'Oswald', sans-serif;  
+}
+
+
+nav {
+    display: inline-block;
+    position: sticky;
+    max-width: 100%;
+    text-align: right;
+    width: 100%;
+
+}
+/*
+@media (min-width 600px){
+    nav a {
+        font-size: 11px;
+    }
+}
+*/
+
+nav a {
+    margin: 20px;
+    display: inline-block;
+    font-size: 3vh;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #36454f;
+}
+
+
+nav a:hover {
+    border-bottom: 2px solid #555;
+    color: black;
+    text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c, -15px -12px 5px rgba(176, 176, 176, 0.3);
+}
+
+
+header {
+    position: relative;
+    background-attachment: fixed;
+    height: 96vh;
+    background-image: url(obrazy/glowna4.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: Roboto Mono;
+
+}
+
+header div1 {
+    position: fixed;
+    width: 25%;
+    top: 10%;
+    left: 1%;
+    font-size: 17vh;
+    color: black;
+    text-align: left;
+    
+
+}
+
+header div2 {
+   position: fixed;
+    width: 20%;
+    top: 13.5%;
+   left: 23%;
+    font-size: 7vh;
+     color: black;
+    text-align: left;
+}
+
+header div3 {
+    position: fixed;
+    width: 35%;
+    top: 20.5%;
+       left: 23%;
+    font-size: 7vh;
+     color: black;
+    text-align: left;
+   
+}
+footer {
+    background-color: #000;
+}
+
+footer p {
+    position:relative;
+
+    color: white;
+    text-align: center;
+    font-size: 2vh;
+    height: 4vh;
+ 
+}

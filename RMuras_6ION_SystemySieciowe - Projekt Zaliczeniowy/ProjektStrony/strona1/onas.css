@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+body{
+    background-image: url(obrazy/las.jpg);
+    position: relative;
+    background-attachment: fixed;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    font-family: Roboto Mono;
+}
+
+html {
+    font-size: 10px;
+    font-family: 'Oswald', sans-serif;
+    background-color: ghostwhite;
+    ;
+}
+
+/*menu*/
+nav {
+    position: fixed;
+    max-width: 100%;
+    text-align: right;
+    width: 100%;
+
+}
+/*przyciski menu*/
+nav a {
+    margin: 20px;
+    display: inline-block;
+    font-size: 3vh;
+    font-family: 'Roboto Condensed', sans-serif;
+
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+
+/*co sie dzieje z przyciskami menu po najechaniu*/
+nav a:hover {
+    border-bottom: 2px solid #555;
+    color: black;
+    text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c, -15px -12px 5px rgba(176, 176, 176, 0.3);
+}
+
+/*RYSA*/
+nazwa {
+    position: fixed;
+    width: 25%;
+    top: 0%;
+    left: 1%;
+    font-size: 7vh;
+    color: black;
+    text-align: left;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+/*pracownia*/
+nazwa1 {
+
+    position: fixed;
+    width: 25%;
+    top: 1%;
+    left: 8%;
+    font-size: 3vh;
+    color: black;
+    text-align: left;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+/*architektoniczna*/
+nazwa2 {
+    position: fixed;
+    width: 25%;
+    top: 3.9%;
+    left: 8%;
+    font-size: 3vh;
+    color: black;
+    text-align: left;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+/*zakres dzialanosci*/
+body div1 {
+    font-size: 5vh;
+    text-align: center;
+    width: 100%;
+    top: 10vh;
+    position: absolute;
+    font-family: Roboto Mono;
+
+}
+/*opis*/
+body div2 {
+    font-size: 2vh;
+    text-align: center;
+    width: 100%;
+    top: 20vh;
+    position: absolute;
+    font-family: Roboto Mono;
+}
+/*opis wlasciciela*/
+article{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    font-size: 2.5vh;   
+    font-weight: bold;
+}
+
+/*zdjecie tomka*/
+article img{
+    border: 2px solid black;
+    width: 20hv;
+    height: 15vw;
+    background-size: cover;
+    background-attachment: fixed;
+}/*opis wlasciciela*/
+article1{
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    right: 17%;
+    font-size: 2.5vh;   
+}  
+/*zdjecie anny*/
+article1 img{
+    border: 2px solid black;
+   width: 20hv;
+    height: 15vw;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/*    stopa*/
+footer {
+    background-color: #000;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+}
+/*test w stopce*/
+footer p {
+    font-family: Oswald;
+    color: white;
+    text-align: center;
+    font-size: 2vh;
+    height: 4vh;
+    }
